@@ -1,9 +1,13 @@
 ﻿ConsoleKeyInfo keyPress = new ConsoleKeyInfo();
-while (keyPress.Key != ConsoleKey.Q )
+ConsoleColor[] colors = new ConsoleColor[]
+{
+    ConsoleColor.Blue, ConsoleColor.Yellow, ConsoleColor.Red, ConsoleColor.Green, ConsoleColor.Magenta, ConsoleColor.White
+};
+while (keyPress.Key != ConsoleKey.Q)
 {
     Console.Clear();
     Console.ResetColor();
-    Console.Write("Please press 1 - 3 to see a christmas tree.  Please press 'Q' to quit");
+    Console.Write("Please press 1 - 4 to see a christmas tree.  Please press 'Q' to quit");
     keyPress = Console.ReadKey();
     if (keyPress.ToString() != "Q")
     {
@@ -21,7 +25,7 @@ while (keyPress.Key != ConsoleKey.Q )
             Console.WriteLine(" *************");
             Console.WriteLine("***************");
             Console.WriteLine("       *");
-            Console.WriteLine("       *"); 
+            Console.WriteLine("       *");
             Console.WriteLine();
             Console.WriteLine();
             Console.ResetColor();
@@ -65,21 +69,29 @@ while (keyPress.Key != ConsoleKey.Q )
                     {
                         Console.Clear();
                         Console.ResetColor();
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("       *");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("      ***");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("     *****");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("    *******");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("   *********");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("  ***********");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine(" *************");
-                        Console.ForegroundColor = (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
+                        Console.ForegroundColor =
+                            (ConsoleColor)(new Random().Next(Enum.GetNames(typeof(ConsoleColor)).Length));
                         Console.WriteLine("***************");
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         Console.WriteLine("       *");
@@ -87,6 +99,48 @@ while (keyPress.Key != ConsoleKey.Q )
                         Console.WriteLine();
                         Console.WriteLine();
                         System.Threading.Thread.Sleep(1000);
+                    }
+                }
+
+                else
+                {
+                    if (keyPress.Key == ConsoleKey.D4)
+                    {
+                        for (int i = 0; i < 10; i++)
+                        {
+                            Console.Clear();
+                            Console.ResetColor();
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("       *");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("      ***");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("     *****");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("    *******");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("   *********");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("  ***********");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine(" *************");
+                            Console.ForegroundColor =
+                                colors[(new Random().Next(colors.Length))];
+                            Console.WriteLine("***************");
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine("       *");
+                            Console.WriteLine("       *");
+                            Console.WriteLine();
+                            Console.WriteLine();
+                            System.Threading.Thread.Sleep(1000);
+                        }
                     }
                 }
             }
