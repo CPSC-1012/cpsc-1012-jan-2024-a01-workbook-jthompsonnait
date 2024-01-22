@@ -88,7 +88,7 @@ while (keyPress.Key != ConsoleKey.Q)
                 if (keyPress.Key == ConsoleKey.D3)
                 {
                     // Loop to create a blinking effect
-                    for (int i = 0; i < 10; i++)
+                    for (int i = 0; i < 20; i++)
                     {
                         Console.Clear();
                         Console.ResetColor();
@@ -123,7 +123,7 @@ while (keyPress.Key != ConsoleKey.Q)
                         Console.WriteLine();
                         Console.WriteLine();
                         // Pause for a second
-                        System.Threading.Thread.Sleep(1000);
+                        System.Threading.Thread.Sleep(500);
                     }
                 }
 
@@ -131,7 +131,7 @@ while (keyPress.Key != ConsoleKey.Q)
                 {
                     if (keyPress.Key == ConsoleKey.D4)
                     {
-                        for (int i = 0; i < 10; i++)
+                        for (int i = 0; i < 20; i++)
                         {
                             Console.Clear();
                             Console.ResetColor();
@@ -166,7 +166,7 @@ while (keyPress.Key != ConsoleKey.Q)
                             Console.WriteLine();
                             Console.WriteLine();
                             // Pause for a second
-                            System.Threading.Thread.Sleep(1000);
+                            System.Threading.Thread.Sleep(500);
                         }
                     }
                 }
