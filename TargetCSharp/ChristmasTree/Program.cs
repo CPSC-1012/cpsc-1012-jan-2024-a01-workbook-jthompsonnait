@@ -44,8 +44,8 @@ while (keyPress.Key != ConsoleKey.Q)
             Console.WriteLine("  ***********");
             Console.WriteLine(" *************");
             Console.WriteLine("***************");
-            Console.WriteLine("       *");
-            Console.WriteLine("       *");
+            Console.WriteLine("       **");
+            Console.WriteLine("       **");
 
             // Reset the console color and wait for another key press
             Console.ResetColor();
