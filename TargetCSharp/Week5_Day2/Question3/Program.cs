@@ -6,6 +6,11 @@
 //  rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and display a message 
 //  indicating whether the user or the computer wins, loses, or draws.
 
+//  The programming style emphasized in this scissor-rock-paper game relies on
+//      using if/else statements to sequentially evaluate conditions and
+//      determine the game's outcome, illustrating a fundamental approach in procedural programming.
+
+
 // Initialize the user's choice with a default value
 int userChoice = 0;
 // Initialize a variable to hold the user's choice as a string for display purposes
