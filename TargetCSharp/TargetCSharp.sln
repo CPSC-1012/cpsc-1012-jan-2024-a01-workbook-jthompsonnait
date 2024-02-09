@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChristmasTree", "ChristmasT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3", "Week3\Week3.csproj", "{4734167E-57BE-443C-9730-D44D90BE9D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3D2", "Week3D2\Week3D2.csproj", "{9030468C-9950-4174-8144-D64E4E46D0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3D2", "Week3D2\Week3D2.csproj", "{9030468C-9950-4174-8144-D64E4E46D0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLight", "TrafficLight\TrafficLight.csproj", "{DDE4C5C1-B63E-471A-AE09-FD0084D74016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9030468C-9950-4174-8144-D64E4E46D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9030468C-9950-4174-8144-D64E4E46D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9030468C-9950-4174-8144-D64E4E46D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE4C5C1-B63E-471A-AE09-FD0084D74016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE4C5C1-B63E-471A-AE09-FD0084D74016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE4C5C1-B63E-471A-AE09-FD0084D74016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE4C5C1-B63E-471A-AE09-FD0084D74016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
