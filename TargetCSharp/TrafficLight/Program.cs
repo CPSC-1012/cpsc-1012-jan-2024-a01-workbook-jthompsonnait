@@ -68,7 +68,7 @@ while (true) // Infinite loop to keep the program running
     Console.ResetColor();
 
     // Change the light every 2 seconds
-    Thread.Sleep(2000);
+  //  Thread.Sleep(2000);
 
     // Update lightValue for the next cycle
     lightValue = (lightValue + 1) % 3; // This ensures the cycle loops between 0, 1, and 2
