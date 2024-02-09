@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Enter a number:");
+int number1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number:");
+int number2 = int.Parse(Console.ReadLine());
+int sum = number1 + number2;
+Console.WriteLine($"Sum: {sum}");
+Console.WriteLine("Enter a multiplier:");
+int multiplier = int.Parse(Console.ReadLine());
+int product = sum * multiplier;
+Console.WriteLine($"Product: {product}");
+Console.WriteLine("Press any key to exit.");
+Console.ReadKey();
