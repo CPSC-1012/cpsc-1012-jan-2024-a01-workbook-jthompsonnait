@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScratchPad", "ScratchPad\Sc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6Day1LP1P1", "Week6Day1\Week6Day1LP1P1.csproj", "{A8E8A534-502C-4F48-8C03-86301A895609}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6Day2P1P3", "Week6Day2P1P3\Week6Day2P1P3.csproj", "{418B9762-9543-437F-87E6-CE5C88358B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A8E8A534-502C-4F48-8C03-86301A895609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8E8A534-502C-4F48-8C03-86301A895609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8E8A534-502C-4F48-8C03-86301A895609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418B9762-9543-437F-87E6-CE5C88358B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418B9762-9543-437F-87E6-CE5C88358B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418B9762-9543-437F-87E6-CE5C88358B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418B9762-9543-437F-87E6-CE5C88358B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
